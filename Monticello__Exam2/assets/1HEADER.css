@@ -1,0 +1,294 @@
+@charset "UTF-8";
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "GothamBook", sans-serif;
+}
+
+.main {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  background: url(/img/Headermonticello.jpg);
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+  padding-bottom: 50px;
+}
+
+.main__head {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 1170px;
+  width: 100%;
+  height: 130px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main__head__listconteiner {
+  width: calc((100% + 30px) / 12 * 7);
+  max-width: 100%;
+  padding-top: 62px;
+}
+
+.main__head__logo {
+  padding-top: 52px;
+}
+
+.main__head__list {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main__head__list li {
+  padding-left: 21px;
+  padding-right: 21px;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 22px;
+  color: #ffffff;
+  font-family: "Gotham", sans-serif;
+}
+
+.main__head__list li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.main__head__list li .dot {
+  height: 8px;
+  width: 8px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  display: inline-block;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  margin-right: 14px;
+}
+
+.main__head__list li:hover .dot {
+  background-color: #fff;
+}
+
+.main__head__icon {
+  height: 130px;
+  width: 170px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main__head__icon a {
+  text-decoration: none;
+}
+
+.main__head__icon-conteiner:hover {
+  background-color: #fff;
+}
+
+.main__head__icon-conteiner:hover i {
+  color: #7d5efa;
+}
+
+.main__head__icon-conteiner {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: solid 1px #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.main__head__icon-conteiner i {
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.main__text {
+  height: 670px;
+  margin: 0 auto;
+  max-width: 1170px;
+  padding-top: 260px;
+  padding-bottom: 320px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main__text .conteiner {
+  width: 1170px;
+  height: 253px;
+  margin-top: 23px;
+}
+
+.main__text__title {
+  font-size: 80px;
+  letter-spacing: 4px;
+  line-height: 22px;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: "Gotham", sans-serif;
+  text-align: center;
+  margin: 0px auto 40px auto;
+}
+
+.main__text__subtitle {
+  width: 834px;
+  height: 24px;
+  font-size: 18px;
+  letter-spacing: 5px;
+  line-height: 22px;
+  color: #ffffff;
+  font-family: "Gotham", sans-serif;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main .scrollto {
+  text-decoration: none;
+}
+
+.main .fa-arrow-alt-circle-down {
+  display: block;
+  font-weight: 100;
+  font-size: 40px;
+  text-align: center;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  color: #fff;
+  text-decoration: none;
+}
+
+.main .fa-arrow-alt-circle-down:hover {
+  color: #7e5dfa;
+}
+
+.main .vertical-dots {
+  right: 10px;
+  list-style: none;
+  display: block;
+  position: absolute;
+  top: 40%;
+  margin-top: -10px;
+  text-align: right;
+}
+
+.main .vertical-dots li {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.main .vertical-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  cursor: pointer;
+  color: transparent;
+  border: 0;
+  outline: none;
+  background: transparent;
+}
+
+.main .vertical-dots li button:hover,
+.main .vertical-dots li button:focus {
+  outline: none;
+}
+
+.main .vertical-dots li button:hover:before,
+.main .vertical-dots li button:focus:before {
+  opacity: 1;
+}
+
+.main .vertical-dots li button:before {
+  font-family: "slick";
+  font-size: 6px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: "•";
+  text-align: center;
+  opacity: 0.25;
+  color: black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.main .vertical-dots li.slick-active button:before {
+  opacity: 1;
+  color: black;
+}
+
+.main .vertical-dots li button::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  opacity: 1;
+}
+
+.main .vertical-dots li.slick-active button:before {
+  background-color: #ffffff;
+  opacity: 1;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #fff;
+}
+
+.main button {
+  margin: 40px;
+}
+
+.main .vertical-dots {
+  right: -131px;
+  list-style: none;
+  display: block;
+  position: absolute;
+  top: 40%;
+  margin-top: -80px;
+  text-align: right;
+}
+/*# sourceMappingURL=1HEADER.css.map */
