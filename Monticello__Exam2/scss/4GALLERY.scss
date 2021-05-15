@@ -1,0 +1,91 @@
+.gallery {
+  box-sizing: border-box;
+  width: 100%;
+
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+
+  &__line {
+    box-sizing: border-box;
+    margin: 0 auto;
+    height: 100px;
+    width: 100px;
+    border-bottom: solid 2px black;
+    margin-bottom: 38px;
+  }
+  &__title {
+    font-size: 44px;
+    line-height: 22px;
+    color: #2c4058;
+    font-weight: 500;
+    font-family: "Gotham";
+    text-align: center;
+    display: block;
+    margin-bottom: 100px;
+  }
+  &__content {
+    height: 800px;
+    width: 1170px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__content-big {
+    background-color: blue;
+    width: 575px;
+    height: 438px;
+    background: url(/img/joel-filipe-151697.png);
+    box-sizing: border-box;
+    background-position: center;
+    background-size: cover;
+  }
+  &__content-small {
+    width: 580px;
+    height: 438px;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    align-content: space-between;
+    .small__conteiner {
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: space-between;
+      align-items: flex-start;
+      align-content: space-between;
+
+      box-sizing: border-box;
+      
+    }
+    
+    }
+    &__img {
+      background: url(/img/joel-filipe-151697.png);
+      height: 214px;
+      width: 285px;
+
+      flex: 0 1 100px;
+      align-self: flex-end;
+    
+      }
+    
+    .img1 {
+    }
+    .img2 {
+      margin-top: 10px;
+      background: url(/img/fuse-brussels-169216.png);
+    }
+    .img2 {
+      margin-top: 10px;
+      background: url(/img/fuse-brussels-169216.png);
+    }
+    .img3 {
+    }
+    .img4 {
+      
+    }
+  
+}

@@ -1,0 +1,168 @@
+.description {
+  box-sizing: border-box;
+  width: 100%;
+
+  &__line {
+    box-sizing: border-box;
+    margin: 0 auto;
+    height: 100px;
+    width: 100px;
+    border-bottom: solid 2px black;
+    // background-color: brown;
+  }
+
+  &__title {
+    font-size: 44px;
+    line-height: 22px;
+    color: #2c4058;
+    font-weight: bold;
+    font-family: "GothamBook";
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    display: block;
+    box-sizing: border-box;
+  }
+
+  &__content {
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 1170px;
+    width: 100%;
+    // background-color: aqua;
+    // height: 700px;
+    position: relative;
+    z-index: 2;
+  }
+  &__content-background {
+    background-color: #55b7ff;
+    height: 470px;
+    width: 585px;
+    position: absolute;
+    left: -215px;
+    z-index: 1;
+  }
+
+  &__content-main {
+    height: 470px;
+    width: 1170px;
+    // background-color: chartreuse;
+    position: relative;
+    z-index: 3;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+
+    &__photo {
+      height: 470px;
+      width: 630px;
+      background: url(/img/joel-filipe-151697.png);
+      background-position: center;
+      background-size: cover;
+      box-sizing: border-box;
+    }
+    &__text {
+      height: 470px;
+      width: 482px;
+      //   background-color: red;
+      padding-top: 57px;
+      box-sizing: border-box;
+
+      &__title {
+        display: block;
+        font-size: 22px;
+        line-height: 24px;
+        color: #2c4058;
+        font-family: "Gotham", sans-serif;
+      }
+      &__subtitle {
+        display: block;
+        font-size: 43px;
+        line-height: 24px;
+        color: #2c4058;
+        font-family: "Gotham", sans-serif;
+        margin-top: 17px;
+        margin-bottom: 40px;
+      }
+      &__content {
+        height: 84px;
+        font-size: 18px;
+        line-height: 30px;
+        color: #4b5562;
+        font-weight: 400;
+        font-family: "Open Sans", sans-serif;
+        margin-bottom: 35px;
+        display: block;
+      }
+
+      .click {
+        height: 50px;
+        width: 190px;
+        display: block;
+        box-sizing: border-box;
+        border: solid 1px black;
+        background-color: #fff;
+        text-decoration: none;
+        margin-bottom: 60px;
+
+        font-size: 14px;
+        line-height: 22px;
+        color: #2c4058;
+        font-family: "Gotham", sans-serif;
+        text-align: center;
+        transition: all 500ms ease;
+      }
+      .click:hover {
+        background: linear-gradient(to top left, #7e5aff, #55b7ff);
+        color: #fff;
+      }
+      &__location {
+        font-size: 18px;
+        line-height: 30px;
+        color: #2c4058;
+        font-family: "Font Awesome", sans-serif;
+      }
+    }
+  }
+
+  &__content2 {
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin-top: 140px;
+    max-width: 1170px;
+    width: 100%;
+    // background-color: aqua;
+    // height: 700px;
+    position: relative;
+    z-index: 2;
+  }
+  &__content2-main {
+    height: 470px;
+    width: 1170px;
+    // background-color: chartreuse;
+    position: relative;
+    z-index: 3;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+    margin-bottom: 140px;
+
+    &__photo2 {
+      height: 470px;
+      width: 630px;
+      background: url(/img/photos-1284iH4Hjf4mhNgW.png);
+      background-position: center;
+      background-size: cover;
+      box-sizing: border-box;
+    }
+  }
+
+  &__content2-background {
+    background-color: #7e5aff;
+    height: 470px;
+    width: 585px;
+    position: absolute;
+    right: -215px;
+    z-index: 1;
+  }
+}

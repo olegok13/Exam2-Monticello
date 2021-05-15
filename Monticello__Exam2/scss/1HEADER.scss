@@ -1,0 +1,267 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "GothamBook", sans-serif;
+}
+
+.main {
+  box-sizing: border-box;
+  // height: 820px;
+  width: 100%;
+  background: url(/img/Headermonticello.jpg);
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+  padding-bottom: 50px;
+  &__head {
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 1170px;
+    width: 100%;
+    // background-color: aqua;
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    &__listconteiner {
+      width: calc((100% + 30px) / 12 * 7);
+
+      max-width: 100%;
+      padding-top: 62px;
+    }
+
+    &__logo {
+      padding-top: 52px;
+    }
+    &__list {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: space-between;
+      list-style: none;
+      box-sizing: border-box;
+
+      li {
+        padding-left: 21px;
+        padding-right: 21px;
+        text-decoration: none;
+        font-size: 14px;
+        line-height: 22px;
+        color: #ffffff;
+        font-family: "Gotham", sans-serif;
+        a {
+          text-decoration: none;
+          color: #fff;
+        }
+        .dot {
+          height: 8px;
+          width: 8px;
+          background-color: transparent;
+          border: 1px solid #fff;
+          border-radius: 50%;
+          display: inline-block;
+          transition: all 0.2s ease;
+          margin-right: 14px;
+        }
+        &:hover {
+          .dot {
+            background-color: #fff;
+          }
+        }
+      }
+    }
+    &__icon {
+      height: 130px;
+      width: 170px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      a {
+        text-decoration: none;
+      }
+    }
+    &__icon-conteiner:hover {
+      background-color: #fff;
+      i {
+        color: #7d5efa;
+      }
+    }
+
+    &__icon-conteiner {
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+      border: solid 1px #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.2s ease;
+
+      i {
+        font-size: 16px;
+        line-height: 22px;
+        color: #ffffff;
+      }
+    }
+  }
+
+  &__text {
+    height: 670px;
+    margin: 0 auto;
+    max-width: 1170px;
+    padding-top: 260px;
+    padding-bottom: 320px;
+    box-sizing: border-box;
+    .conteiner {
+      width: 1170px;
+      height: 253px;
+      margin-top: 23px;
+    }
+    &__title {
+      font-size: 80px;
+      letter-spacing: 4px;
+      line-height: 22px;
+      color: #ffffff;
+      font-weight: bold;
+      font-family: "Gotham", sans-serif;
+      text-align: center;
+      margin: 0px auto 40px auto;
+    }
+    &__subtitle {
+      width: 834px;
+      height: 24px;
+      font-size: 18px;
+      letter-spacing: 5px;
+      line-height: 22px;
+      color: #ffffff;
+      font-family: "Gotham", sans-serif;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  // &__scroll {
+  //   width: 40px;
+  //   height: 40px;
+  //   margin: 0 auto;
+  //   background: url(/img/ArrowDown.png);
+  //   background-position: center;
+  //   background-size: cover;
+  //   box-sizing: border-box;
+  //   transition: all 0.2s ease;
+
+  // }
+  // &__scroll:hover{
+
+  //   color: #7d5efa;
+  // }
+  .scrollto {
+    text-decoration: none;
+  }
+  .fa-arrow-alt-circle-down {
+    display: block;
+    font-weight: 100;
+    font-size: 40px;
+    text-align: center;
+    transition: all 0.2s ease;
+    color: #fff;
+    text-decoration: none;
+  }
+  .fa-arrow-alt-circle-down:hover {
+    color: #7e5dfa;
+  }
+
+  .vertical-dots {
+    right: 10px;
+    list-style: none;
+    display: block;
+    position: absolute;
+    top: 40%;
+    margin-top: -10px;
+    text-align: right;
+  }
+  .vertical-dots li {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+  .vertical-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+  }
+  .vertical-dots li button:hover,
+  .vertical-dots li button:focus {
+    outline: none;
+  }
+  .vertical-dots li button:hover:before,
+  .vertical-dots li button:focus:before {
+    opacity: 1;
+  }
+  .vertical-dots li button:before {
+    font-family: "slick";
+    font-size: 6px;
+    line-height: 20px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 20px;
+    height: 20px;
+
+    content: "•";
+    text-align: center;
+
+    opacity: 0.25;
+    color: black;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .vertical-dots li.slick-active button:before {
+    opacity: 1;
+    color: black;
+  }
+
+  .vertical-dots li button::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    opacity: 1;
+  }
+  .vertical-dots li.slick-active button:before {
+    background-color: #ffffff;
+    opacity: 1;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #fff;
+  }
+  button {
+    margin: 40px;
+  }
+ .vertical-dots {
+    right: -131px;
+    list-style: none;
+    display: block;
+    position: absolute;
+    top: 40%;
+    margin-top: -80px;
+    text-align: right;
+  }
+}

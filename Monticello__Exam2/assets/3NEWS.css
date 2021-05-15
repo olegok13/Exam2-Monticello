@@ -1,0 +1,221 @@
+.news {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  background: url(/img/monticello.jpg);
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+  max-height: 1035px;
+  padding-bottom: 210px;
+}
+
+.news__line {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0 auto;
+  height: 100px;
+  width: 100px;
+  border-bottom: solid 2px #fff;
+  margin-bottom: 38px;
+}
+
+.news__title {
+  font-size: 44px;
+  line-height: 22px;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "Gotham", sans-serif;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.news .slider {
+  height: 500px;
+  border-color: gray;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 1170px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.news .slider .window4 {
+  background: url(/img/img4.jpg);
+  background-position: center;
+  background-size: cover;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.news .slider .window5 {
+  background: url(/img/img5.jpg);
+  background-position: center;
+  background-size: cover;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.news .slider .window {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  max-width: 365px;
+  height: 513px;
+  background-color: purple;
+  margin-right: 25px;
+}
+
+.news .slider .window .img1 {
+  height: 240px;
+  width: 370px;
+  background: url(/img/img.png);
+  background-position: center;
+  background-size: cover;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.news .slider .window .img2 {
+  height: 240px;
+  width: 370px;
+  background: url(/img/img2.png);
+  background-position: center;
+  background-size: cover;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.news .slider .window .img3 {
+  height: 240px;
+  width: 370px;
+  background: url(/img/img3.png);
+  background-position: center;
+  background-size: cover;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.news .slider .window__content-text {
+  background-color: #ffffff;
+  max-width: 100%;
+  height: 165px;
+  padding: 30px 20px 10px 22px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.news .slider .window__content-text__title {
+  font-size: 22px;
+  line-height: 34px;
+  color: #2c4058;
+  font-weight: bold;
+  font-family: "Gothambook";
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.news .slider .window__content-text__subtitle {
+  font-size: 18px;
+  line-height: 30px;
+  color: #4b5562;
+  font-weight: 400;
+  font-family: "Open Sans";
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.news .slider .window__content-subtext {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.news .slider .window__content-subtext .avatar {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+
+.news .slider .window__content-subtext .datename {
+  padding: 10px 10px 15px 20px;
+}
+
+.news .slider .window__content-subtext .datename__name {
+  font-size: 18px;
+  line-height: 22px;
+  color: #2c4058;
+  display: block;
+}
+
+.news .slider .window__content-subtext .datename__date {
+  font-size: 14px;
+  line-height: 22px;
+  color: #55b7ff;
+}
+
+.news .slider .slick-arrow {
+  width: 40px;
+  height: 40px;
+}
+
+.news .slider .slick-next {
+  right: -100px;
+}
+
+.news .slider .slick-prev {
+  left: -100px;
+}
+
+.news .slider .slick-arrow::before {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 40px;
+}
+
+.news .slider .slick-prev.slick-arrow::before {
+  background: url(/img/L.png);
+}
+
+.news .slider .slick-next.slick-arrow {
+  background: url(/img/R.png);
+}
+
+.news .slider .slick-dots li button {
+  position: absolute;
+  top: 60px;
+}
+
+.news .slider li {
+  margin-left: 40px;
+}
+
+.news .slider .slick-dots li button::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  opacity: 1;
+}
+
+.news .slider .slick-dots li.slick-active button:before {
+  background-color: #ffffff;
+  opacity: 1;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #fff;
+}
+/*# sourceMappingURL=3NEWS.css.map */
